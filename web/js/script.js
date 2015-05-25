@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('input, textarea').placeholder();
+});
+
 function setLang(lang) {
     var old_href = location.href;
     old_href = old_href.replace(/lang=.{2}/, '');

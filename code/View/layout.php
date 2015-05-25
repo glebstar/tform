@@ -24,7 +24,8 @@
 
         <script src="/bootstrap/js/jquery.js"></script>
         <script src="/bootstrap/js/bootstrap.min.js"></script>
-        <script src="/js/script.js"></script>
+        <script src="/js/jquery-placeholder.js"></script>
+        <script src="/js/script.js?v=2"></script>
         <script type="text/javascript">
             var emess = {
                 <?php foreach($langCfg['emess'] as $key=>$value): ?>
