@@ -1,7 +1,7 @@
 function setLang(lang) {
     var old_href = location.href;
     old_href = old_href.replace(/lang=.{2}/, '');
-    old_href = old_href.replace(/\?$|&$|#$/, '');
+    old_href = old_href.replace(/\?$|&$|\?#$|&#|#/, '');
     location.href = old_href + getPrefix(old_href) + 'lang=' + lang;
 }
 
