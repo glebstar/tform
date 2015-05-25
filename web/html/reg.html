@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Тестовая форма</title>
+        <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-right">
+                <div class="btn-group">
+                    <button class="btn active">Русский</button>
+                    <button class="btn">English</button>
+                </div>
+            </div>
+            <form class="form-signin">
+                <ul class="nav nav-tabs">
+                    <li>
+                        <a href="/">Вход</a>
+                    </li>
+                    <li class="active"><a href="#">Регистрация</a></li>
+                </ul>
+                <div class="alert alert-error" style="display: none;">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <strong>Warning!</strong> Best check yo self, you're not looking too good.
+                </div>
+                <input type="text" class="input-block-level" placeholder="Логин">
+                <input type="password" class="input-block-level" placeholder="Пароль">
+                <input type="password" class="input-block-level" placeholder="Пароль еще раз">
+                <input type="text" class="input-block-level" placeholder="Имя">
+                <input type="text" class="input-block-level" placeholder="Фамилия">
+
+                <button class="btn btn-large btn-primary" type="submit">Зарегистрироваться</button>
+            </form>
+
+        </div>
+
+        <script src="/bootstrap/js/jquery.js"></script>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
